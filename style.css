@@ -1,8 +1,22 @@
+/* Root section code start here */
+:root{
+    --primaryColor: #4E47FF;
+    --secondColor: rgba(37, 36, 50, 1)
+    --backgroundBg: rgba(245, 248, 255, 1);
+    --userBg: rgba(78, 71, 255, 0.1);
+}
+/* Root section code start here */
+/* Reset Code Start Here */
 *, *::after, *::before{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* Reset Code End Here */
 body{
     font-family: Raleway;
+    background: rgba(245, 248, 255, 1);
+}
+header{
+    height: 100vh;
 }
