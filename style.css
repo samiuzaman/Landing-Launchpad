@@ -19,4 +19,56 @@ body{
 }
 header{
     height: 100vh;
+    background-image: url("/Assets/Hero-bg.png");
 }
+/* Header Section Code Start Here */
+.header-container{
+    
+}
+nav{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primaryColor);
+    margin-top: 20px;
+}
+nav h3{
+    font-size: 25px;
+    font-family: Inter;
+}
+nav button{
+    background-color: var(--primaryColor);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+}
+.hero-container{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.hero-container h1{
+    font-size: 65px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    text-align: center;
+    margin-top: 25vh;
+}
+.hero-container button{
+    background-color: var(--primaryColor);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+}
+/* Header Section Code Start Here */
