@@ -77,7 +77,7 @@ nav button{
     width: 80%;
     margin: 0 auto;
     margin-top: 60px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -95,7 +95,7 @@ nav button{
     margin-bottom: 8px;
 }
 .action-btn{
-        background-color: var(--primaryColor);
+    background-color: var(--primaryColor);
     color: white;
     font-weight: bold;
     padding: 10px 20px;
@@ -109,3 +109,35 @@ nav button{
     border-radius: 35px;
 }
 /* See It in Action Section Code End Here */
+/* Productive Users Section Code Start Here */
+#productive-users-container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 35px 35px;
+    text-align: center;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+#productive-users-container h4{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.user-count-parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.user-count-div span{
+    color: var(--primaryColor);
+    font-weight: bold;
+    font-family: Inter;
+    font-size: 70px;
+    margin-bottom: 8px;
+}
+.user-count-div p{
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter;
+}
+/* Productive Users Section Code End Here */
