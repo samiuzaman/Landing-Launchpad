@@ -52,7 +52,7 @@ nav button{
     margin: auto;
     display: flex;
     flex-direction: column;
-    justify-items: center;
+   justify-content: center;
     align-items: center;
 }
 .hero-container h1{
@@ -72,3 +72,40 @@ nav button{
     border-radius: 6px;
 }
 /* Header Section Code Start Here */
+/* See It in Action Section Code Start Here */
+#action-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    gap: 30px;
+}
+.action-header{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.action-para{
+    font-size: 18px;
+    color: rgba(37, 36, 50, 0.5);
+    margin-bottom: 8px;
+}
+.action-btn{
+        background-color: var(--primaryColor);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+}
+.action-img{
+    width: 403px;
+    height: 328px;
+    border-radius: 35px;
+}
+/* See It in Action Section Code End Here */
