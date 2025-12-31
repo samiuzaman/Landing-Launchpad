@@ -190,6 +190,44 @@ nav button{
 }
 /* Users Say section code end here */
 
+/* Focus Better Section Code Start Here */
+#focus-better-container{
+    width: 80%;
+    height: 696px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 14px;
+    padding: 71px 150px;
+    text-align: center;
+}
+#focus-better-container h2{
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+#focus-better-container p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+}
+#focus-better-container button{
+    background-color: var(--primaryColor);
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+#focus-better-container img{
+    width: 840px;
+    height: 364px;
+    border-radius: 48px;
+}
+/* Focus Better Section Code End Here */
+
 /* Footer Section Code Start Here */
 footer{
     display: flex;
