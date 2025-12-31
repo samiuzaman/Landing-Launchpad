@@ -141,3 +141,51 @@ nav button{
     font-family: Inter;
 }
 /* Productive Users Section Code End Here */
+/* Users Say section code start here */
+#users-say-container{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#users-say-container h3{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.user-card-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.user-card{
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(242, 237, 237, 1);
+    border-radius: 10px;
+    padding: 24px;
+}
+.user-card h5{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: Inter;
+    margin-top: 24px;
+    margin-bottom: 10px;
+}
+#stars-icon-parent i{
+    color: rgba(255, 184, 5, 1);
+}
+.user-profile-child{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 14px;
+}
+.user-profile div img{
+    width: 40px;
+    height: 40%;
+    border-radius: 50%;
+    border: 2px solid rgba(242, 237, 237, 1);
+}
+/* Users Say section code end here */
